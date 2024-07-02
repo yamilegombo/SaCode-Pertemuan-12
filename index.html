@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pertemuan 12</title>
+    
+</head>
+     
+      <h1 id="nama User">Welcome </h1>
+
+      <label>Nama User</label>
+      <input id="input-user">
+      <button id="submit-user">Klik</butto>
+
+   
+    <script >
+
+        document.getElementById("submit-user").onclick = () => {
+            const simpangData = document.getElementById("input-user").value;
+            document.getElementById("nama-user").textContent = `Hello ${siampangData}`;
+        }
+        
+    </script>
+     
+</body>
+</html>
